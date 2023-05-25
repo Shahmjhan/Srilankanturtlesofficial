@@ -482,7 +482,7 @@ body {
   }
 
   .contact-us form {
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 auto;
     background-color: white;
     padding: 10px;
@@ -510,7 +510,7 @@ body {
   .contact-us button[type="submit"] {
     background-color: #134200;
     color: white;
-    padding: 10px 75px;
+    padding: 10px 100px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

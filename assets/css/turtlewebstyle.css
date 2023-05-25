@@ -842,7 +842,7 @@ font-size: 29px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 150%;
+    height: 170%;
     z-index: -1;
   }
     
@@ -1405,7 +1405,7 @@ color:#001259;
   }
 
   .contact-us form {
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 auto;
     background-color: white;
     padding: 10px;
@@ -1433,7 +1433,7 @@ color:#001259;
   .contact-us button[type="submit"] {
     background-color: #132029;
     color: white;
-    padding: 10px 75px;
+    padding: 10px 100px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -3135,6 +3135,25 @@ option {
 }
 
 
+@media only screen and (max-width: 600px) {
+  #donate {
+    background-color: #031928;
+    height: 80%;
+  
+  }
+ 
+  
+  #donation-message input[type="text"], textarea {
+    width: 80%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+}
 
 
   /*******PURCHASE CONTAINER*******/

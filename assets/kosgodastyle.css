@@ -1,0 +1,662 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    width: auto;
+    overflow-x: scroll;
+    white-space: normal;
+  }
+}
+
+
+  /*******LOGO HEADER*******/
+
+
+
+#header {
+  height: 130px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #ffffff;
+}
+
+#header .logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 4px 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: #0f3b00;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.topic {
+font-family: "Roboto", sans-serif;
+font-size: 30px;
+color: rgb(255, 255, 255);
+text-align: center;
+font-weight: 200;
+text-transform: uppercase;
+}
+
+
+
+  /*******NAVIGATION BAR********/
+
+
+
+
+#navbar {
+  background-color: #005203;
+  overflow: hidden;
+}
+
+/* Style for navbar links */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar ul li {
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+#navbar ul li a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  #navbar {
+    background-color: #258300;
+    overflow: hidden;
+
+  }
+
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  #navbar ul li a {
+    font-size: 9px;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    text-decoration: none;
+    width:35%;
+
+  }
+}
+
+
+/* Change color of navbar links on hover */
+#navbar ul li a:hover {
+  background-color: #00b312;
+}
+
+/* Style for active navbar link */
+#navbar ul li a.active {
+  background-color: #00b312;
+}
+
+/* Style for dropdown menu */
+#navbar ul li.dropdown ul {
+  display: none;
+  background-color: #00b312;
+  position: absolute;
+  z-index: 1;
+}
+
+#navbar ul li.dropdown:hover ul {
+  display: block;
+}
+
+  #navbar ul li {
+    width: 100%;
+    text-align: left;
+  }
+
+  #navbar ul li a {
+    padding: 14px 20px;
+  }
+
+  #navbar ul li.dropdown:hover ul {
+    display: none;
+  }
+
+  #navbar ul li.dropdown.active ul {
+    display: block;
+  }
+
+
+
+/*--------------------------------------------------------------
+# Kosgoda Image
+--------------------------------------------------------------*/
+
+.section-content-main {
+  background-color: #f5f5f5; 
+  padding: 10px; 
+}
+
+
+ /*--------------------------------------------------------------
+ #Turtle Brief Description
+ --------------------------------------------------------------*/
+
+.Kosgodaturtle{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #002805fd;
+
+}
+
+.Kosgodaturtle img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:590px;
+  height:526px;
+  padding-right:2%
+
+}
+
+.Kosgodaturtle-text{
+  order: -1;
+
+}
+
+.Kosgodaturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bc436;
+  text-transform: uppercase;
+  padding-left: 5% ;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.Kosgodaturtle-text p{
+  text-align: justify;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+  line-height: 200%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .Kosgodaturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #002805fd;
+  }
+
+  .Kosgodaturtle img{
+    align-self: center;
+    min-height: 400px;
+    padding-left: 10px;
+    width:95%;
+    height:500px;
+    padding-right:2%
+  }
+}
+
+
+
+
+
+.flex-container-Kosgoda{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 35%;
+  background-color: #ffffff;
+
+ }
+
+ .flex-container-Kosgoda::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.Catogeries-Kosgoda{
+  flex-basis: 50px;
+  height: 300px;
+  margin: 2px;
+  flex-grow: 1;
+
+}
+
+.Catogeries-Kosgoda img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+
+
+
+.Kosgodamapturtle{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #012300;
+
+}
+
+.Kosgodamapturtle iframe{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:1480px;
+  height:426px;
+  padding-right:2%;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Kosgodamapturtle iframe{
+    align-self: center;
+    width: 97%;
+  }
+}
+
+.Kosgodamapturtle-text{
+  order: -1;
+
+}
+
+.Kosgodamapturtle-text h3{
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #0bc421;
+  text-transform: uppercase;
+  padding-left: 2% ;
+  transition: all 0.8s ease;
+}
+
+
+.Kosgodamapturtle-text:hover h3{
+  font-size: 30px;
+}
+
+.Kosgodamapturtle-text h4{
+  text-align: justify;
+  color:#0bc421;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  transition: all 0.8s ease;
+
+}
+
+.Kosgodamapturtle-text:hover h4{
+  font-size: 25px;
+}
+
+.Kosgodamapturtle-text ul{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:14%;
+  padding-right:2%;
+  text-align: justify;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .Kosgodamapturtle-text h3{
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #0bc421;
+    text-transform: uppercase;
+    padding-left: 2% ;
+  }
+  
+  .Kosgodamapturtle-text h4{
+    text-align: justify;
+    color:#0bc421;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  
+  }
+  
+  .Kosgodamapturtle-text ul{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:14%;
+    padding-right:2%;
+    text-align: justify;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+
+}
+
+  /*******CONTACT US*******/
+
+
+
+  .contact-us h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: #134200;
+  }
+
+  .contact-us form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 244, 0.2);
+  }
+
+  .contact-us label {
+    display:grid;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-us input[type="text"], textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+
+  .contact-us button[type="submit"] {
+    background-color:#005203;
+    color: white;
+    padding: 10px 127px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .contact-us button[type="submit"]:hover {
+    background-color:#258300;
+          text-align: center;
+  }
+
+      
+.group {
+
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+
+}
+
+.contact-us label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-us select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.contact-us option {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .contact-us h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: #132029;
+  }
+
+  .contact-us form {
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 244, 0.2);
+  }
+
+  .contact-us label {
+    display:grid;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-us input[type="text"], textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+
+  .contact-us button[type="submit"] {
+    background-color: #134200;
+    color: white;
+    padding: 10px 75px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
+
+  /*******CONTACT INFO*******/
+
+
+
+
+  .flex-container {
+    padding: 4%;
+    display: flex;
+    background-color:#132029;
+    justify-content: center;
+    
+  }
+  .flex-container::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+  }
+  
+  .item{
+  flex-basis: 20px;
+  height: 170px;
+  background:#132029; 
+  margin: 1px;
+  flex-grow: 1;
+  }
+  
+  
+  
+  .item h3{
+    font-family: "Roboto", sans-serif;
+    color:aqua;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+  
+  }
+  
+  .item p{
+  font-family: "Roboto", sans-serif;
+  color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: right;
+  font-size: 100%;
+  line-height: 180%;
+  }
+  
+  .ulitem{
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  padding-right: 10%;
+  justify-content: center;
+  padding-left: 33%;
+  line-height: 180%;
+  }
+  
+
+@media only screen and (max-width: 600px) {
+
+  
+
+  .flex-container {
+    padding: 0;
+    display: grid;
+    background-color:#132029;
+    justify-content: center;
+    
+  }
+  
+  .item{
+  flex-basis: 20px;
+  height: 250px;
+  background:#132029; 
+  margin: 1px;
+  flex-grow: 1;
+  }
+  
+  
+  .item h3{
+    font-family: "Roboto", sans-serif;
+    color:aqua;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-decoration: overline;
+  
+  }
+  
+  .item p{
+  font-family: "Roboto", sans-serif;
+  color:rgb(255, 255, 255);
+  display: grid;
+  justify-content: right;
+  font-size: 100%;
+  line-height: 180%;
+  }
+  
+  .ulitem{
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  padding-right: 0%;
+  text-align:left;
+  padding-left:20%;
+  line-height: 180%;
+  justify-content: justify;
+  
+   } 
+  }
+  
+  
+
+
+  /*******FOOTER COPYRIGHT*******/
+
+
+
+
+#footer .copyright {
+  color: #000000;
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+

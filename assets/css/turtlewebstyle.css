@@ -1,0 +1,3158 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  }
+
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    width: auto;
+    overflow-x: scroll;
+    white-space:normal;
+  }
+}
+
+  /*******LOGO HEADER*******/
+
+
+  #header {
+    height: 130px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: #1e4356;
+  }
+  
+  #header .logo h1 {
+    font-size: 34px;
+    margin: 0;
+    padding: 4px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  #header .logo h1 a,
+  #header .logo h1 a:hover {
+    color: #87ff5f;
+    text-decoration: none;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    #header .logo h1 {
+      font-size: 28px;
+      margin: 0;
+      padding: 4px 0;
+      line-height: 1;
+      font-weight: 400;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
+
+
+  /*******NAVIGATION BAR********/
+
+
+  #navbar {
+    background-color: #132029;
+    overflow: hidden;
+  }
+
+  /* Style for navbar links */
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+  }
+
+  #navbar ul li {
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+  }
+
+
+
+
+  
+  @media only screen and (max-width: 600px) {
+
+    #navbar {
+      background-color: #132029;
+      overflow: hidden;
+
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    #navbar ul li a {
+      font-size: 9px;
+      display: block;
+      color: white;
+      text-align: left;
+      padding: 0px;
+      text-decoration: none;
+      width:35%;
+
+    }
+  }
+
+  /* Change color of navbar links on hover */
+  #navbar ul li a:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for active navbar link */
+  #navbar ul li a.active {
+    background-color: #0056b3;
+  }
+
+  /* Style for dropdown menu */
+  #navbar ul li.dropdown ul {
+    display: none;
+    background-color: #007bff;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #navbar ul li.dropdown:hover ul {
+    display: block;
+
+
+  }
+
+    #navbar ul li {
+      width: 100%;
+      text-align: left;
+    }
+
+    #navbar ul li a {
+      padding: 14px 20px;
+    }
+
+    #navbar ul li.dropdown.active ul {
+      display: block;
+    }
+
+
+
+
+ /******HORIZONTAL LINE*******/
+
+
+  .Horizonted-Line{
+    background-color: #031928;
+  }
+
+
+
+  /*******CONTACT INFO*******/
+  
+
+
+.flex-container {
+  padding: 1%;
+  display: flex;
+  background-color:#132029;
+  justify-content: center;
+  
+}
+.flex-container::after{
+content: '';
+clear: both;
+display: block;
+flex-wrap: wrap;
+}
+
+.item{
+flex-basis: 20px;
+height: 250px;
+background:#132029; 
+margin: 1px;
+flex-grow: 1;
+}
+
+
+.item h3{
+  font-family: "Roboto", sans-serif;
+  color:aqua;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+}
+
+.item p{
+font-family: "Roboto", sans-serif;
+color:rgb(255, 255, 255);
+display: flex;
+justify-content: right;
+font-size: 100%;
+line-height: 180%;
+}
+
+.ulitem{
+font-family: "Roboto", sans-serif;
+list-style-type: none;
+color: rgb(255, 255, 255);
+font-size: 100%;
+padding-right: 0%;
+text-align:left;
+padding-left:33%;
+line-height: 180%;
+justify-content: justify;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  
+
+.flex-container {
+  padding: 0;
+  display: grid;
+  background-color:#132029;
+  justify-content: center;
+  
+}
+
+.item{
+flex-basis: 20px;
+height: 250px;
+background:#132029; 
+margin: 1px;
+flex-grow: 1;
+}
+
+
+.item h3{
+  font-family: "Roboto", sans-serif;
+  color:aqua;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  text-decoration: overline;
+
+}
+
+.item p{
+font-family: "Roboto", sans-serif;
+color:rgb(255, 255, 255);
+display: grid;
+justify-content: right;
+font-size: 100%;
+line-height: 180%;
+}
+
+.ulitem{
+font-family: "Roboto", sans-serif;
+list-style-type: none;
+color: rgb(255, 255, 255);
+font-size: 100%;
+padding-right: 0%;
+text-align:left;
+padding-left:20%;
+line-height: 180%;
+justify-content: justify;
+
+}
+
+
+}
+
+
+  /*******FOOTER COPYRIGHT*******/
+
+
+
+#footer .copyright {
+  color: #000000;
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+
+
+ /*--------------------------------------------------------------
+ # Home Page
+ --------------------------------------------------------------*/
+
+
+
+  /*******BACKGROUND IMAGE*******/
+
+
+
+ .background-image {
+  background-image: url(https://shannonhartigan.com.au/wp-content/uploads/2018/08/Lady-Turtle.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+  /*******START HERO*******/
+
+
+
+#hero-no-slider {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#hero-no-slider h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #000000;
+margin-bottom: 2px;
+font-size: 48px;
+font-weight: 600;
+animation: fadeIn 2s ease-in-out;
+}  
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#hero-no-slider h2 {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 98px;
+    font-weight: 600;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+
+
+#hero-no-slider h2 {
+  font-size: 93px;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  transition: all 0.8s ease;
+  -webkit-text-stroke: 2px rgb(0, 5, 54);
+}
+
+#hero-no-slider:hover h2 {
+  font-size: 100px;
+}
+
+
+
+
+
+#hero-no-slider p {
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+#hero-no-slider .btn-get-started {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 1px;
+display: inline-block;
+padding: 12px 32px;
+border-radius: 50px;
+transition: 0.5s;
+line-height: 1;
+margin: 10px;
+color: #fff;
+animation-delay: 0.8s;
+border: 2px solid #68A4C4;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #hero-no-slider h1 {
+    color: #000000;
+margin-bottom: 2px;
+font-size: 38px;
+font-weight: 600;
+animation: fadeIn 2s ease-in-out;
+
+  }
+
+  #hero-no-slider h2 {
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 68px;
+    font-weight: 500;
+    animation: fadeIn 2s ease-in-out;
+}
+
+}
+
+
+  /*******FACT SECTION*******/
+
+
+
+.Flex-container-fact-section{
+  padding: 2%;
+  display: flex;
+  background-color:#135e89;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.flex-container-fact-section::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.fact-section {
+
+  flex-basis: 10px;
+  height: 170px;
+  background:#ffffff; 
+  margin: 2px;
+  flex-grow: 1;
+  border-radius: 20%;
+}
+
+.fact-section h2{
+  font-family: "Roboto", sans-serif;
+   color:rgb(7, 32, 142);
+   display: flex;
+   align-items: top;
+   justify-content: center;
+   transition: all 0.8s ease;
+   
+}
+
+.fact-section:hover h2 {
+font-size: 29px;
+}
+
+
+
+.fact-section h2 {
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+
+.fact-section p {
+  font-family: "Roboto", sans-serif;
+  color:rgb(19, 94, 137);
+  display: flex;
+  justify-content: center;
+  font-size: 250%;
+  font-weight: 1000;
+}
+
+.fact-section p {
+  animation-name: blooming;
+  animation: blooming 3s ease-in-out infinite;
+}
+
+
+@keyframes blooming {
+  0% {
+    font-size: 0; /* start with a font-size of 0 */
+  }
+  500% {
+    font-size: 150%; /* increase font-size to 150% */
+  }
+  1000% {
+    font-size: 100%; /* return to original font-size */
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Flex-container-fact-section {
+    width: 96%;
+    height: 20%;
+  }
+  .fact-section {
+    flex-basis: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 1px;
+    flex-grow: 1;
+  
+  
+  }
+  .fact-section h2{
+    font-family: "Roboto", sans-serif;
+    color:rgb(7, 32, 142);
+    display: flex;
+    align-items: top;
+    text-align: center;
+    font-size: 17px;
+  }
+  .fact-section p {
+    font-family: "Roboto", sans-serif;
+    color:rgb(19, 94, 137);
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+}
+
+
+
+  /*******HOME PAGE PARAGRAPH*******/
+
+
+
+.paragraph{
+  max-width: 1200px; 
+  margin: 0 auto;
+  text-align: justify; 
+  
+ }
+
+ .paragraph h1{
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  line-height: 1.5;
+
+ }
+
+ .oli {
+  display: grid;
+  list-style-type: 1;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5; 
+
+}
+
+.oli li {
+  margin-left: 60px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  
+.paragraph{
+  max-width: 1000px; 
+  margin: 0 auto;
+  text-align: center;
+  padding: 3%;
+
+  
+ }
+
+ .paragraph h1{
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+
+ }
+
+ .oli {
+  display: grid;
+  list-style-type: 1;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  line-height: 1; 
+
+}
+
+.oli li {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 100;
+  font-size: 20px;
+
+}
+}
+
+
+
+
+
+  /*******HATCHERY IMAGES*******/
+
+
+
+.flex-container-Hatcheries{
+  display: flex;
+  justify-content: center;
+  padding: 7%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 35%;
+  background-color: #ffffff;
+
+ }
+
+ .flex-container-Hatcheries::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.Catogeries-Hatcheries{
+  flex-basis: 50px;
+  height: 300px;
+  margin: 2px;
+  flex-grow: 1;
+
+}
+
+.Catogeries-Hatcheries img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .flex-container-Hatcheries{
+    display: grid;
+    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    height: 35%;
+    background-color: #ffffff;
+  
+   }
+  
+  
+  .Catogeries-Hatcheries{
+    flex-basis: 50px;
+    height: 100px;
+    margin: 2px;
+    flex-grow: 1;
+  
+  }
+  
+  .Catogeries-Hatcheries img{
+    display: grid;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    object-fit: cover;
+  }
+  
+  }
+  
+  
+
+  /*******MORE ABOUT US*******/
+
+  .More-about {
+    display: flex;
+    list-style-type:square;
+    padding: 0;
+    margin: 0;
+    align-content: left;
+    line-height: 1.5; 
+    transition: all 0.10s ease;
+  
+  }
+  
+  .More-about li {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 23;
+    font-weight: 400;
+  
+  }
+
+  .More-about:hover li{
+    font-size: 24;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .More-about {
+      padding-top: 30%;
+    
+    }
+  }
+  
+  
+
+  /*--------------------------------------------------------------
+ # Hikkaduwa Hatchery Page
+ --------------------------------------------------------------*/
+
+
+ /*******BACKGROUND IMAGE 2*******/
+
+
+
+ .background-image3 {
+  background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .background-image3 {
+    background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+  }
+    
+}
+
+/*******HIKKADUWA HEADING*******/
+
+.Hikkaduwa-heading h1 {
+  animation: slideInn 1s ease-in-out;
+  font-family: "Roboto", sans-serif;
+  color:rgb(255, 255, 255);
+  text-align: right;
+  font-weight: 800;
+  font-size: 45px;
+  padding-right: 7%;
+
+}
+
+@keyframes slideInn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .Hikkaduwa-heading h1{
+    font-family: "Roboto", sans-serif;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+    
+}
+
+
+/*******HIKKADUWA FLEX CONTAINER*******/
+
+
+
+.Hikkaduwa-Flex-Container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Hikkaduwa-Flex-container::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+  
+}
+
+.Hikkaduwa-map{
+
+  flex-basis: 50px;
+  height: 380px; 
+  margin: 3px;
+  padding: 1%;
+  flex-grow: 1;
+}
+
+.Hikkaduwa-map header{
+  font-family: "Roboto", sans-serif;
+  color:rgb(255, 255, 255);
+  justify-content: center;
+  align-items: top;
+  display: flex;
+  font-size: larger;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.Hikkaduwa-Map iframe{
+  width:650;
+  height:380;
+  transition: all 1.5s ease;
+
+}
+
+.Hikkaduwa-Map:hover iframe{
+  width:700;
+  height:380;
+}
+
+
+.Hikkaduwa-Video {
+  flex-basis: 50px;
+  height: 500px; 
+  margin: 3px;
+  padding: 1%;
+  flex-grow: 1;
+
+}
+
+
+.Hikkaduwa-Video iframe {
+  display: block;
+  width:650;
+  height:380;
+  object-fit: cover;
+  padding-top: 4.5%;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .Hikkaduwa-Flex-Container{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+  
+  }
+  
+  .Hikkaduwa-map header{
+    font-family: "Roboto", sans-serif;
+    color:rgb(0, 34, 101);
+    justify-content: center;
+    align-items: top;
+    display: grid;
+    font-size: larger;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+
+.Hikkaduwa-Map iframe{
+  width:100%;
+  height:380;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.Hikkaduwa-Video iframe {
+  display: block;
+  width:100%;
+  height:380;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  padding-top: 7%;
+
+}
+
+
+}
+
+
+/*******HIKKADUWA CONTENT*******/
+
+
+.Hikkaduwa-Content {
+  max-width: 1300px; 
+  margin: 0 auto;
+  padding: 6px; 
+  transition: all 0.8s ease;
+
+}
+
+.Hikkaduwa-Content p {
+  font-size: 25px;
+  line-height: 1.5; 
+  color: #3823c5; 
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: justify;
+
+  margin-bottom: 50px;
+}
+
+.Hikkaduwa-Content:hover p{
+  font-size: 27px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .Hikkaduwa-Content {
+    margin: 0 auto;
+    padding: 6px; 
+  
+  }
+  
+  .Hikkaduwa-Content p {
+    font-size: 20px;
+    line-height: 1.5; 
+    color: #3823c5; 
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    padding: 5%;
+  }
+    
+}
+
+
+
+/*******HIKKADUWA SERVICES SECTION*******/
+
+
+
+.flex-container-services {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+}
+
+.flex-container-services::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.container-services{
+  flex-basis: 520px;
+  height: 100px; 
+  margin: 3px;
+  padding: 1%;
+  flex-grow: 1;
+  background-color: #040047;
+  border-radius: 5%;
+
+}
+
+.container-services h1{
+  text-align: center;
+  justify-content: center;
+  color:#fff;
+  transition: all 0.8s ease;
+  font-size: 23;
+}
+
+
+.container-services:hover h1{
+  font-size: 25;
+  color:#87ff5f;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .flex-container-services {
+    display: grid;
+    justify-content: center;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .container-services{
+    height: 70px; 
+    margin: 3px;
+    padding: 1%;
+    flex-grow: 1;
+    background-color: #040047;
+    border-radius: 25%;
+  
+  }
+  .container-services h1{
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 20px;
+  
+  }
+}
+
+
+
+  /******EXPLORE HIKKADUWA******/
+
+
+
+.flex-container-Hikkaduwa {
+  display: flex;
+  justify-content: center;
+  padding: 7%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 35%;
+  background-color: #ffffff;
+
+}
+
+.flex-container-Hikkaduwa::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.description-Hikkaduwa  {
+  flex-basis: 520px;
+  height: 300px;
+  margin: 4px;
+  flex-grow: 1;
+
+}
+
+.description-Hikkaduwa img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+
+  
+.flex-container-Hikkaduwa {
+  display: grid;
+  justify-content: center;
+  padding: 7%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 35%;
+  background-color: #ffffff;
+  padding-bottom: 95%;
+
+}
+
+
+.description-Hikkaduwa  {
+  flex-basis: 520px;
+  height: 200px;
+  margin: 4px;
+  flex-grow: 1;
+
+}
+
+.description-Hikkaduwa img{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+}
+
+
+
+
+
+/******HATCHERY INFORMATION******/
+
+
+
+.flex-Hatchery-Information {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 10%;
+  background-color: #ffffff;
+
+}
+
+.flex-Hatchery-Information::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.Information  {
+  flex-basis: 520px;
+  height: 110px;
+  margin: 4px;
+  flex-grow: 1;
+  background-color: #84a1ff;
+  border-radius: 20%;
+}
+
+.Information h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000245;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+}
+
+.Information p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  transition: all 0.8s ease;
+
+}
+
+
+.Information:hover p{
+font-size: 23px;
+color:#001259;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .flex-Hatchery-Information {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 7%;
+    background-color: #ffffff;
+    padding-bottom: 15%;
+  
+  }
+
+  .Information h2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #000245;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  
+  .Information p{
+    display: grid;
+    align-items: center;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+
+
+
+  /*******CONTACT US*******/
+
+
+
+  .contact-us h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: #132029;
+  }
+
+  .contact-us form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 244, 0.2);
+  }
+
+  .contact-us label {
+    display:grid;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-us input[type="text"], textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+
+  .contact-us button[type="submit"] {
+    background-color: #132029;
+    color: white;
+    padding: 10px 127px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .contact-us button[type="submit"]:hover {
+    background-color: #0c2e47;
+          text-align: center;
+  }
+
+      
+.group {
+
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+
+}
+
+.contact-us label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-us select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.contact-us option {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .contact-us h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: #132029;
+  }
+
+  .contact-us form {
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 244, 0.2);
+  }
+
+  .contact-us label {
+    display:grid;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-us input[type="text"], textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+
+  .contact-us button[type="submit"] {
+    background-color: #132029;
+    color: white;
+    padding: 10px 75px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+  /*--------------------------------------------------------------
+ # Turtle Categories Page
+ --------------------------------------------------------------*/
+
+
+
+
+  /******BACKGROUND IMAGE******/
+
+
+
+ .background-image-category {
+  background-image: url(https://www.fitzroyisland.com/wp-content/uploads/2019/06/Five-of-the-Best-Locations-to-See-Sea-Turtles-in-Queensland.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .background-image-category {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 280%;
+    z-index: -1;
+  }
+  
+}
+
+
+  /******PAGE TOPIC******/
+
+
+
+.topic {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
+  animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+    
+
+
+
+ /******TURTLE IMAGES CONTAINER******/
+
+
+
+  .turtle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .turtle-card {
+    position: relative;
+    width: 276px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .turtle-card:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .turtle-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .turtle-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .turtle-card:hover::before {
+    opacity: 1;
+  }
+  
+  .turtle-card::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    z-index: 2;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    50% {
+      transform: rotate(45deg) scale(1);
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8);
+    }
+  }
+  
+
+  
+
+
+  /******TURTLE NAMES CONTAINER******/
+
+
+
+  .flex-container-categories {
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container::after{
+    content: '';
+    clear: both;
+    display: block;
+    flex-wrap: wrap;
+  }
+  
+  .itemj {
+    font-family: "Roboto", sans-serif;
+    flex-basis: 50px;
+    height: 40px;
+    background:#8fd0ff; 
+    color:#573c88;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    transition: all 0.8s ease;
+    text-decoration:overline;
+  }
+
+  .itemj:hover{
+    font-size: 21;
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+   
+  .flex-container-categories {
+
+    display: grid;
+    justify-content: center;
+  }
+  
+  .itemj {
+    font-family: "Roboto", sans-serif;
+    flex-basis: 50px;
+    height: 40px;
+    background:#94ccf4; 
+    color:rgb(0, 0, 0);
+    margin: 6px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+  } 
+}
+    
+
+
+  /******TURTLE CATOGERIES WITH MAP******/
+
+
+  
+ .flex-container-Categories-with-Map{
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .flex-container-Categories-with-Map::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.Categories-with-Map{
+  flex-basis: 520px;
+  height: 400px;
+  background:#000f1a; 
+  margin: 2px;
+  flex-grow: 1;
+
+}
+
+.mapheader h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color:rgb(45, 2, 162);
+}
+
+.mapheader h1 {
+  animation-name: header-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes header-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.Categories-with-Map h3{
+  color:rgb(155, 135, 237);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease;
+}
+
+
+.Categories-with-Map:hover h3{
+  font-size: 20;
+}
+
+
+.Categories-with-Map iframe{
+  width:100%;
+  height:339;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+
+  
+ .flex-container-Categories-with-Map{
+  display: grid;
+  justify-content: center;
+
+ }
+
+  .Categories-with-Map iframe {
+    width: 100%;
+
+  }
+}
+
+
+
+
+  /******GREEN TURTLE******/
+
+
+
+.greenturtle{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #031928;
+}
+
+.greenturtle img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:400px;
+  height:426px;
+  padding-right:2%;
+}
+
+.greenturtle-text{
+  order: -1;
+
+}
+
+.greenturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bb1c4;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+.greenturtle-text:hover h3{
+  font-size: 48px;
+}
+
+
+.greenturtle-text p{
+  text-align: left;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .greenturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #031928;
+  }
+  
+  .greenturtle img{
+    align-self: center;
+    min-height: 300px;
+    padding-left: 10px;
+    width:370px;
+    height:400px;
+    padding-right:2%;
+
+  }
+  
+  .greenturtle-text{
+    order: -1;
+  
+  }
+  
+  .greenturtle-text h3{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #0bb1c4;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+  }
+  
+  .greenturtle-text p{
+    text-align: left;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+
+  }
+ }
+ 
+
+  /******OLIVE RIDLEY TURTLE******/
+
+
+
+.oliveridleyturtle{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #031928;
+}
+
+.oliveridleyturtle img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:400px;
+  height:426px;
+  padding-right:2%;
+  transition: all 1s ease;
+
+}
+
+.oliveridleyturtle-text{
+  order: -1;
+
+}
+
+.oliveridleyturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bb1c4;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+
+.oliveridleyturtle-text:hover h3{
+  font-size: 48px;
+}
+
+
+.oliveridleyturtle-text p{
+  text-align: left;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .oliveridleyturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #031928;
+  }
+  
+  .oliveridleyturtle img{
+    align-self: center;
+    min-height: 300px;
+    padding-left: 10px;
+    width:370px;
+    height:400px;
+    padding-right:2%
+  }
+  
+  .oliveridleyturtle-text{
+    order: -1;
+  
+  }
+  
+  .oliveridleyturtle-text h3{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #0bb1c4;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+  }
+  
+  .oliveridleyturtle-text p{
+    text-align: left;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+
+  }
+ }
+
+
+
+  /******LEATHERBACK TURTLE******/
+
+
+
+.leatherbackturtle{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #031928;
+}
+
+.leatherbackturtle img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:400px;
+  height:426px;
+  padding-right:2%;
+
+}
+
+.leatherbackturtle-text{
+  order: -1;
+
+}
+
+.leatherbackturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bb1c4;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+.leatherbackturtle-text:hover h3{
+  font-size: 48px;
+}
+
+.leatherbackturtle-text p{
+  text-align: left;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .leatherbackturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #031928;
+  }
+  
+  .leatherbackturtle img{
+    align-self: center;
+    min-height: 300px;
+    padding-left: 10px;
+    width:370px;
+    height:400px;
+    padding-right:2%
+  }
+  
+  .leatherbackturtle-text{
+    order: -1;
+  
+  }
+  
+  .leatherbackturtle-text h3{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #0bb1c4;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+  }
+  
+  .leatherbackturtle-text p{
+    text-align: left;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+
+  }
+ }
+
+
+  /******HAWKSBILL TURTLE******/
+
+
+
+.hawksbillturtle {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #031928;
+}
+
+.hawksbillturtle img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:400px;
+  height:486px;
+  padding-right:2%;
+
+}
+
+.hawksbillturtle-text{
+  order: -1;
+
+}
+
+.hawksbillturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bb1c4;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+.hawksbillturtle-text:hover h3{
+  font-size: 48px;
+}
+
+
+.hawksbillturtle-text p{
+  text-align: left;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .hawksbillturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #031928;
+  }
+  
+  .hawksbillturtle img{
+    align-self: center;
+    min-height: 300px;
+    padding-left: 10px;
+    width:370px;
+    height:400px;
+    padding-right:2%
+  }
+  
+  .hawksbillturtle-text{
+    order: -1;
+  
+  }
+
+  .hawksbillturtle-text h3{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #0bb1c4;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+  }
+  
+  .hawksbillturtle-text p{
+    text-align: left;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+
+  }
+ }
+
+
+  /******LOGGERHEAD TURTLE******/
+
+
+
+.loggerheadturtle {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #031928;
+}
+
+.loggerheadturtle  img{
+  align-self: center;
+  min-height: 400px;
+  padding-left: 10px;
+  width:400px;
+  height:426px;
+  padding-right:2%;
+}
+
+.loggerheadturtle-text{
+  order: -1;
+
+}
+
+.loggerheadturtle-text h3{
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #0bb1c4;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+
+.loggerheadturtle-text:hover h3{
+  font-size: 48px;
+}
+
+
+.loggerheadturtle-text p{
+  text-align: left;
+  color:#fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .loggerheadturtle{
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #031928;
+  }
+  
+  .loggerheadturtle img{
+    align-self: center;
+    min-height: 300px;
+    padding-left: 10px;
+    width:370px;
+    height:400px;
+    padding-right:2%
+  }
+  
+  .loggerheadturtle-text{
+    order: -1;
+  
+  }
+  
+  .loggerheadturtle-text h3{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #0bb1c4;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+  }
+  
+  .loggerheadturtle-text p{
+    text-align: left;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: justify;
+
+  }
+ }
+
+  /******TURTLE SUMMERY TABLE******/
+
+
+
+.catogeries-description{
+
+  border-collapse:unset;
+  width: 100%;
+}
+
+.catogeries-description th{
+  border: 4px solid #00305d;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+thead {
+  background-color: #049eba;
+  font-weight: bold;
+
+}
+
+/* Style for the table rows */
+tr:nth-child(even) {
+  background-color: #026c7d;
+}
+
+/* Style for the table cells */
+td {
+  border: 4px solid #00305d;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+/* Style for the turtle category column */
+td:first-child {
+  font-weight: bold;
+  
+}
+
+/* Style for the table caption */
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  table{
+    table-layout: fixed;
+  }
+  .catogeries-description th{
+    border: px solid #00305d;
+    text-align: center;
+    padding: 2px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  } 
+
+  td {
+    border: 4px solid #00305d;
+    padding: 2px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+}
+  
+
+  /*--------------------------------------------------------------
+ # Threats to Turtle Page
+ --------------------------------------------------------------*/
+ 
+ /*BACKGROUND COLOR*/
+
+ .background-color {
+    background-color: #031928;
+  }
+
+
+  /*BACKGROUND*/
+
+
+  .background-image4 {
+    background-image: url(https://shannonhartigan.com.au/wp-content/uploads/2018/08/Lady-Turtle.jpg);
+    background-size:cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .background-image4 {
+      background-image: url(https://shannonhartigan.com.au/wp-content/uploads/2018/08/Lady-Turtle.jpg);
+      background-size:cover;
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      z-index: -1;
+    }
+
+    }  
+   
+
+
+  /*PAGE TITLE*/
+
+
+.Page-title h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 75px;
+  padding-top: 4%;
+  text-align: right;
+  padding-right: 5%;
+  color: #ffffff;
+  transition: all 0.8s ease;
+  -webkit-text-stroke: 3px #031928;
+}
+
+.Page-title:hover h1{
+  font-size: 70px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .Page-title h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 4%;
+    text-align: center;
+    padding-left: 3%;
+    color: #ffffff;
+    -webkit-text-stroke: 3px #031928;
+  }
+} 
+
+  /*PARAGRAPH*/
+
+
+.threats-content h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 2%;
+  font-size: 29px;
+  color:#ffffff;
+  text-align: center;
+  transition: all 0.8s ease;
+  -webkit-text-stroke: 1px rgb(0, 255, 242);
+}
+
+.threats-content:hover h3 {
+  font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .threats-content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 7%;
+    font-size: 25px;
+    color:#ffffff;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 60, 57);
+  }  
+}  
+
+
+
+
+  /*HABBIT LOSS*/
+
+
+
+.Habitat-Loss {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 2%;
+
+}
+
+.Habitat-Loss  img{
+  align-self: center;
+  min-height: 200px;
+  padding-left: 10px;
+  width:450px;
+  height:350px;
+  padding-right:2%;
+  border-radius:10%;
+}
+
+.Habitat-Loss-text{
+  order: -1;
+
+}
+
+.Habitat-Loss-text h2{
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #00c2b5;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+.Habitat-Loss-text:hover h2 {
+  font-size: 44px;
+}
+
+.Habitat-Loss-text p{
+  text-align: left;
+  color:#ffffff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .Habitat-Loss {
+    display:grid;
+    justify-content: space-between;
+    padding-bottom: 2%;
+  
+  } 
+  .Habitat-Loss-text h2{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    color: #00c2b5;
+    text-transform: uppercase;
+    padding-left: 4%;
+  }
+  
+  .Habitat-Loss-text p{
+    text-align: center;
+    color:#ffffff;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:5%;
+    padding-right:5%;
+    line-height: 1.7;
+  }
+  
+  .Habitat-Loss  img{
+    align-self: center;
+    min-height: 200px;
+    padding-left: 10px;
+    width:370px;
+    height:150px;
+    padding-right:2%;
+    border-radius:10%;
+  }
+  
+}  
+
+
+
+  /*POLLUTION*/
+
+
+
+  .Pollution {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+  }
+  
+  .Pollution  img{
+    align-self: center;
+    min-height: 200px;
+    padding-left: 10px;
+    width:450px;
+    height:350px;
+    padding-right:2%;
+    border-radius:10%;
+  }
+  
+  .Pollution-text{
+    order: -1;
+  
+  }
+  
+  .Pollution-text h2{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #00c2b5;
+    text-transform: uppercase;
+    padding-left: 4%;
+    transition: all 0.8s ease;
+  }
+  
+  .Pollution-text:hover h2 {
+    font-size: 44px;
+  }
+  
+  
+  .Pollution-text p{
+    text-align: left;
+    color:#ffffff;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:5%;
+    padding-right:5%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .Pollution {
+      display:grid;
+      justify-content: space-between;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    
+    }
+    
+    .Pollution-text h2{
+      font-size: 35px;
+      font-family: "Roboto", sans-serif;
+      color: #00c2b5;
+      text-transform: uppercase;
+      padding-left: 4%;
+    }
+    
+    .Pollution-text p{
+      text-align: center;
+      color:#ffffff;
+      font-weight: 300;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      padding-left:5%;
+      padding-right:5%;
+      line-height: 1.7;
+    }
+
+    .Pollution  img{
+      align-self: center;
+      min-height: 200px;
+      padding-left: 10px;
+      width:370px;
+      height:150px;
+      padding-right:2%;
+      border-radius:10%;
+    }
+    
+  } 
+  
+  
+  /*CLIMATE-CHANGE*/
+
+
+.Climate-Change {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+.Climate-Change  img{
+  align-self: center;
+  min-height: 200px;
+  padding-left: 10px;
+  width:450px;
+  height:350px;
+  padding-right:2%;
+  border-radius:10%;
+}
+
+.Climate-Change-text{
+  order: -1;
+
+}
+
+.Climate-Change-text h2{
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #00c2b5;
+  text-transform: uppercase;
+  padding-left: 4%;
+  transition: all 0.8s ease;
+}
+
+.Climate-Change-text:hover h2 {
+  font-size: 44px;
+}
+
+
+
+.Climate-Change-text p{
+  text-align: left;
+  color:#ffffff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .Climate-Change {
+    display:grid;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+   
+  .Climate-Change-text h2{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    color: #00c2b5;
+    text-transform: uppercase;
+    padding-left: 4%;
+  }
+  
+  .Climate-Change-text p{
+    text-align: center;
+    color:#ffffff;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:5%;
+    padding-right:5%;
+    line-height: 1.7;
+  }
+  
+  .Climate-Change  img{
+    align-self: center;
+    min-height: 200px;
+    padding-left: 10px;
+    width:370px;
+    height:150px;
+    padding-right:2%;
+    border-radius:10%;
+  }
+} 
+
+  /*INVASIVE SPECIES*/
+
+
+
+  .Invasive-Species {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+  }
+  
+  .Invasive-Species  img{
+    align-self: center;
+    min-height: 200px;
+    padding-left: 10px;
+    width:450px;
+    height:350px;
+    padding-right:2%;
+    border-radius:10%;
+  }
+  
+  .Invasive-Species-text{
+    order: -1;
+  
+  }
+  
+  .Invasive-Species-text h2{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #00c2b5;
+    text-transform: uppercase;
+    padding-left: 4%;
+    transition: all 0.8s ease;
+  }
+  
+  .Invasive-Species-text:hover  h2 {
+    font-size: 44px;
+  }
+  
+  
+  .Invasive-Species-text p{
+    text-align: left;
+    color:#ffffff;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .Invasive-Species {
+      display:grid;
+      justify-content: space-between;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    
+    }
+
+    .Invasive-Species-text h2{
+      font-size: 35px;
+      font-family: "Roboto", sans-serif;
+      color: #00c2b5;
+      text-transform: uppercase;
+      padding-left: 4%;
+    }
+    
+    .Invasive-Species-text p{
+      text-align: center;
+      color:#ffffff;
+      font-weight: 300;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      padding-left:5%;
+      padding-right:5%;
+      line-height: 1.7;
+    }
+    
+    .Invasive-Species  img{
+      align-self: center;
+      min-height: 200px;
+      padding-left: 10px;
+      width:370px;
+      height:150px;
+      padding-right:2%;
+      border-radius:10%;
+    }
+    
+    
+  } 
+
+  
+  /*****SOLUTIONS******/
+
+  .solutions p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-top: 5%;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+
+.solution-text li{
+  margin-left: 60px;
+  margin-right: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 23;
+  font-weight: 400;
+  line-height: 300%;
+  color:#00c2b5;
+  list-style: georgian;
+  transition: all 0.8s ease;
+}
+
+.solution-text:hover li{
+  font-size: 25;
+}
+
+
+.solution-text p{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: overline;
+  padding-top: 4%;
+  color:greenyellow;
+}
+
+@media only screen and (max-width: 600px) {
+
+  
+  .solutions p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 3%;
+    padding-top: 5%;
+    font-weight: 200;
+    color: #ffffff;
+  }
+
+
+.solution-text li{
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 200%;
+  color:#00c2b5;
+  list-style: georgian;
+}
+
+.solution-text p{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: overline;
+  padding-top: 4%;
+  color: greenyellow
+}
+  
+}    
+
+
+/******TREATING IMAGES******/
+
+.flex-treating-container{
+  display: flex;
+  justify-content: center;
+  padding: 7%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 35%;
+
+}
+
+.flex-treating-container::after{
+  content: '';
+  clear: both;
+  display: block;
+  flex-wrap: wrap;
+
+}
+
+.treating-images {
+  flex-basis: 50px;
+  height: 300px;
+  margin: 2px;
+  flex-grow: 1;
+  display: flex;
+}
+
+
+.treating-images img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .flex-treating-container{
+    display: grid;
+    justify-content: center;
+    padding: 7%;
+    padding-top: 3%;
+    padding-bottom: 100%;
+    height: 35%;
+    padding-bottom: 250%;
+  
+  }
+    
+} 
+
+   
+
+  
+  /*****LINKS TO HATCHERIES******/
+
+.Other-hatcheries p{
+  padding-left: 5%;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color:#031928;
+
+}
+
+.Other-hatcheries li{
+  margin-left: 200px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20;
+  font-weight: 400;
+  line-height: 150%;
+  color:#000000;
+  list-style: square;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .Other-hatcheries p{
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color:#031928;
+  
+  }
+
+  .Other-hatcheries li{
+    margin-left: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15;
+    font-weight: 400;
+    line-height: 150%;
+    color:#000000;
+    list-style: square;
+  } 
+}    
+
+
+
+  /*--------------------------------------------------------------
+ #Purchase and Donate Page
+ --------------------------------------------------------------*/
+
+
+
+
+  /*******BACKGROUND IMAGE*******/
+
+
+
+ .background-image {
+  background-image: url(https://shannonhartigan.com.au/wp-content/uploads/2018/08/Lady-Turtle.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+
+/******PURCHASE AND DONATE HEADING******/
+
+
+
+.hero h1{
+  font-size: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+  transition: all 0.8s ease;
+}
+
+.hero:hover p{
+  font-size: 30px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.cta {
+  display: block;
+  text-align: center;
+}
+
+.cta{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 15px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 100px;
+  color: #fff;
+  animation-delay: 0.8s;
+  border: 4px solid #68A4C4;
+
+}
+
+
+
+
+
+  /*******DONATE CONTAINER*******/
+
+
+
+#donate {
+  background-color: #031928;
+  height: 65%;
+
+}
+
+#donate h2{
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 5%;
+  transition: all 0.8s ease;
+}
+
+#donate:hover h2{
+  font-size: 40px;
+}
+
+
+
+#donate p{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: left;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-left: 5%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+option {
+  font-size: 16px;
+}
+
+
+
+
+  /*******PURCHASE CONTAINER*******/
+
+
+  
+  #purchase{
+    background-color: #ffffff;
+    height: 135%; 
+  }
+  
+  #purchase h2{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    color: #040047;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.8s ease;
+  }
+  
+  #purchase:hover h2{
+    font-size: 40px;
+  }
+  
+
+  
+  #purchase {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #040047;
+    text-align: center;
+  
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .product img {
+    max-width:7%;
+    transition: all 0.8s ease;
+  }
+  
+  .product:hover img{
+    max-width: 10%;
+  }
+  .product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product p {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product button {
+    background-color: #040047;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #040047;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .product img {
+
+      max-width: 25%;
+      transition: all 0.8s ease;
+    }
+    
+    .product:hover img{
+      max-width: 30%;
+    }
+
+  }    
+  
+  

@@ -7,6 +7,13 @@ body {
 
 
 /* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    width: auto;
+    overflow-x: scroll;
+    white-space:normal;
+  }
+}
 
   /*******LOGO HEADER*******/
 
@@ -38,8 +45,17 @@ body {
   
 
   @media only screen and (max-width: 600px) {
+
+    #header {
+      height: 90px;
+      transition: all 0.5s;
+      z-index: 997;
+      transition: all 0.5s;
+      background: #1e4356;
+    }
+
     #header .logo h1 {
-      font-size: 28px;
+      font-size: 20px;
       margin: 0;
       padding: 4px 0;
       line-height: 1;
@@ -94,6 +110,7 @@ body {
     #navbar {
       background-color: #132029;
       overflow: hidden;
+      height: 60%;
 
     }
 
@@ -156,6 +173,7 @@ body {
 
 
 
+  
  /******HORIZONTAL LINE*******/
 
 
@@ -238,7 +256,7 @@ justify-content: justify;
 
 .item{
 flex-basis: 20px;
-height: 250px;
+height: 200px;
 background:#132029; 
 margin: 1px;
 flex-grow: 1;
@@ -259,9 +277,11 @@ flex-grow: 1;
 font-family: "Roboto", sans-serif;
 color:rgb(255, 255, 255);
 display: grid;
-justify-content: right;
+text-align: center;
 font-size: 100%;
 line-height: 180%;
+padding-left: 3%;
+padding-right: 3%;
 }
 
 .ulitem{
@@ -288,7 +308,7 @@ justify-content: justify;
 #footer .copyright {
   color: #000000;
   margin-bottom: 3px;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 200;
   text-align: center;
 }
@@ -316,6 +336,21 @@ justify-content: justify;
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .background-image {
+    background-image: url(https://shannonhartigan.com.au/wp-content/uploads/2018/08/Lady-Turtle.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    z-index: -1;
+  }
+   
 }
 
 
@@ -403,9 +438,9 @@ border: 2px solid #68A4C4;
 
 @media only screen and (max-width: 600px) {
   #hero-no-slider h1 {
-    color: #000000;
+color: #000000;
 margin-bottom: 2px;
-font-size: 38px;
+font-size: 28px;
 font-weight: 600;
 animation: fadeIn 2s ease-in-out;
 
@@ -415,7 +450,7 @@ animation: fadeIn 2s ease-in-out;
     color: #fff;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 68px;
+    font-size: 48px;
     font-weight: 500;
     animation: fadeIn 2s ease-in-out;
 }
@@ -535,14 +570,14 @@ font-size: 29px;
     display: flex;
     align-items: top;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
   }
   .fact-section p {
     font-family: "Roboto", sans-serif;
     color:rgb(19, 94, 137);
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 800;
   }
   
@@ -602,6 +637,8 @@ font-size: 29px;
  .paragraph h1{
   font-family: "Roboto", sans-serif;
   justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
 
  }
 
@@ -619,7 +656,7 @@ font-size: 29px;
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 19px;
 
 }
 }
@@ -735,9 +772,25 @@ font-size: 29px;
   @media only screen and (max-width: 600px) {
 
     .More-about {
-      padding-top: 30%;
+      display: flex;
+      list-style-type:square;
+      padding-top: 50%;
+      margin: 0;
+      align-content: left;
+      line-height: 1.5; 
+      transition: all 0.10s ease;
     
     }
+    .More-about li {
+      margin-left: 10px;
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+      font-size: 20;
+      font-weight: 300;
+      text-align: justify;
+    
+    }
+
   }
   
   

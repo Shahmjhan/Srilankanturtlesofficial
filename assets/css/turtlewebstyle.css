@@ -463,7 +463,7 @@ animation: fadeIn 2s ease-in-out;
     color: #fff;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 500;
     animation: fadeIn 2s ease-in-out;
 }
@@ -2381,7 +2381,7 @@ caption {
 @media only screen and (max-width: 600px) {
 
   .Page-title h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     padding-top: 4%;
     text-align: center;
@@ -2395,7 +2395,7 @@ caption {
 
 
 .threats-content h3{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-left: 3%;
   padding-right: 1%;
   padding-top: 2%;
@@ -2415,7 +2415,7 @@ caption {
 @media only screen and (max-width: 600px) {
 
   .threats-content h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding-left: 3%;
     padding-right: 1%;
     padding-top: 7%;

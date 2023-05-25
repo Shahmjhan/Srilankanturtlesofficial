@@ -601,7 +601,7 @@ font-size: 29px;
   .fact-section {
 
     flex-basis: 10px;
-    height: 180px;
+    height: 150px;
     background:#ffffff; 
     margin: 2px;
     flex-grow: 1;

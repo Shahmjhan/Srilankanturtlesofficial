@@ -570,7 +570,7 @@ font-size: 29px;
 @media only screen and (max-width: 600px) {
   .Flex-container-fact-section {
     width: 96%;
-    height: 22%;
+    height: 20%;
   }
   .fact-section {
     flex-basis: 10px;
@@ -596,18 +596,9 @@ font-size: 29px;
     display: flex;
     justify-content: center;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 700;
   }
-  .fact-section {
 
-    flex-basis: 10px;
-    height: 180px;
-    background:#ffffff; 
-    margin: 2px;
-    flex-grow: 1;
-    border-radius: 20%;
-  }
-  
   
 }
 

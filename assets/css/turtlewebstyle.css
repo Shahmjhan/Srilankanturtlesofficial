@@ -55,7 +55,7 @@ body {
     }
 
     #header .logo h1 {
-      font-size: 24px;
+      font-size: 20px;
       margin: 0;
       padding: 4px 0;
       line-height: 1;
@@ -131,8 +131,8 @@ body {
       width:35%;
 
     }
-    
-      #navbar ul li a {
+
+    #navbar ul li a {
       padding: 14px 18px;
     }
   }
@@ -329,6 +329,7 @@ justify-content: justify;
 
 
 
+
  /*--------------------------------------------------------------
  # index Page
  --------------------------------------------------------------*/
@@ -452,7 +453,7 @@ border: 2px solid #68A4C4;
   #hero-no-slider h1 {
 color: #000000;
 margin-bottom: 2px;
-font-size: 32px;
+font-size: 22px;
 font-weight: 600;
 animation: fadeIn 2s ease-in-out;
 
@@ -466,10 +467,10 @@ animation: fadeIn 2s ease-in-out;
     font-weight: 500;
     animation: fadeIn 2s ease-in-out;
 }
-  #hero-no-slider:hover h2 {
+
+#hero-no-slider:hover h2 {
   font-size: none;
 }
-
 
 }
 
@@ -569,7 +570,7 @@ font-size: 29px;
 @media only screen and (max-width: 600px) {
   .Flex-container-fact-section {
     width: 96%;
-    height: 18%;
+    height: 22%;
   }
   .fact-section {
     flex-basis: 10px;
@@ -587,6 +588,7 @@ font-size: 29px;
     align-items: top;
     text-align: center;
     font-size: 15px;
+    padding-top: 15%;
   }
   .fact-section p {
     font-family: "Roboto", sans-serif;
@@ -598,19 +600,20 @@ font-size: 29px;
   }
   .fact-section {
 
-  flex-basis: 10px;
-  height: 150px;
-  background:#ffffff; 
-  margin: 2px;
-  flex-grow: 1;
-  border-radius: 20%;
+    flex-basis: 10px;
+    height: 180px;
+    background:#ffffff; 
+    margin: 2px;
+    flex-grow: 1;
+    border-radius: 20%;
+  }
+  
+  
 }
 
-}
 
 
-
-  /*******HOME PAGE PARAGRAPH*******/
+  /*******INDEX PAGE PARAGRAPH*******/
 
 
 

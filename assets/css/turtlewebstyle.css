@@ -47,7 +47,7 @@ body {
   @media only screen and (max-width: 600px) {
 
     #header {
-      height: 90px;
+      height: 100px;
       transition: all 0.5s;
       z-index: 997;
       transition: all 0.5s;
@@ -55,7 +55,7 @@ body {
     }
 
     #header .logo h1 {
-      font-size: 20px;
+      font-size: 24px;
       margin: 0;
       padding: 4px 0;
       line-height: 1;
@@ -122,7 +122,7 @@ body {
     }
   
     #navbar ul li a {
-      font-size: 9px;
+      font-size: 8px;
       display: block;
       color: white;
       text-align: left;
@@ -130,6 +130,10 @@ body {
       text-decoration: none;
       width:35%;
 
+    }
+    
+      #navbar ul li a {
+      padding: 14px 18px;
     }
   }
 
@@ -448,7 +452,7 @@ border: 2px solid #68A4C4;
   #hero-no-slider h1 {
 color: #000000;
 margin-bottom: 2px;
-font-size: 28px;
+font-size: 52px;
 font-weight: 600;
 animation: fadeIn 2s ease-in-out;
 
@@ -462,6 +466,10 @@ animation: fadeIn 2s ease-in-out;
     font-weight: 500;
     animation: fadeIn 2s ease-in-out;
 }
+  #hero-no-slider:hover h2 {
+  font-size: none;
+}
+
 
 }
 
@@ -561,7 +569,7 @@ font-size: 29px;
 @media only screen and (max-width: 600px) {
   .Flex-container-fact-section {
     width: 96%;
-    height: 20%;
+    height: 18%;
   }
   .fact-section {
     flex-basis: 10px;
@@ -588,7 +596,16 @@ font-size: 29px;
     font-size: 13px;
     font-weight: 800;
   }
-  
+  .fact-section {
+
+  flex-basis: 10px;
+  height: 150px;
+  background:#ffffff; 
+  margin: 2px;
+  flex-grow: 1;
+  border-radius: 20%;
+}
+
 }
 
 

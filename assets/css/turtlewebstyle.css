@@ -7,13 +7,6 @@ body {
 
 
 /* Styles for smaller screens */
-@media only screen and (max-width: 600px) {
-  body {
-    width: auto;
-    overflow-x: scroll;
-    white-space:normal;
-  }
-}
 
   /*******LOGO HEADER*******/
 

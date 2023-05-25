@@ -453,7 +453,7 @@ border: 2px solid #68A4C4;
   #hero-no-slider h1 {
 color: #000000;
 margin-bottom: 2px;
-font-size: 22px;
+font-size: 26px;
 font-weight: 600;
 animation: fadeIn 2s ease-in-out;
 
@@ -1505,7 +1505,15 @@ color:#001259;
     }
   }
     
+  
+  @media only screen and (max-width: 600px) {
+    .topic {
+      font-size: 25px;
 
+      }
+   
+  }
+      
 
 
  /******TURTLE IMAGES CONTAINER******/
@@ -2387,7 +2395,7 @@ caption {
     text-align: center;
     padding-left: 3%;
     color: #ffffff;
-    -webkit-text-stroke: 3px #031928;
+
   }
 } 
 
@@ -2422,7 +2430,7 @@ caption {
     font-size: 25px;
     color:#ffffff;
     text-align: center;
-    -webkit-text-stroke: 1px rgb(0, 60, 57);
+
   }  
 }  
 

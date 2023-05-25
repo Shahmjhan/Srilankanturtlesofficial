@@ -574,7 +574,7 @@ font-size: 29px;
   }
   .fact-section {
     flex-basis: 10px;
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin: 1px;
     flex-grow: 1;
@@ -601,7 +601,7 @@ font-size: 29px;
   .fact-section {
 
     flex-basis: 10px;
-    height: 150px;
+    height: 180px;
     background:#ffffff; 
     margin: 2px;
     flex-grow: 1;

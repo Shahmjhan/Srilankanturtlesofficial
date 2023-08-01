@@ -1,0 +1,1231 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    background-color: rgb(21, 58, 67);
+
+}
+
+
+/***********MAIN HEADER***********/
+
+
+
+.heading{
+
+    background-color: rgb(0, 0, 0);
+    height: 180px;
+}
+
+.heading h2{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+    padding-top: 1.5%;
+    text-decoration: overline;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .heading{
+        height: 7%;
+    }
+
+    .heading h2{
+        font-size: 30px;
+        padding-top: 3%;
+    } 
+  }
+
+
+/***END MAIN HEADER***/
+
+
+
+
+
+/***********BUTTON FOR HIKKADUWA PAGE***********/
+
+#HikkaduwaBtn1{
+    margin-top: -100.5px;
+    margin-left: 3%;
+    background-color: #ffffff;
+    color: rgb(0, 225, 255);
+    padding: 4px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.8s ease;
+}
+
+
+#HikkaduwaBtn1:hover {
+    background-color: #00e1ff;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+  
+
+@media only screen and (max-width: 600px) {
+
+    #HikkaduwaBtn1{
+        margin-top: -10.5%;
+        margin-left: 3%;
+        background-color: #ffffff;
+        color: rgb(0, 225, 255);
+        padding: 2px 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+}
+    
+    #HikkaduwaBtn1:hover {
+        background-color: #00e1ff;
+        color: black;
+        text-align: center;
+  }   
+}
+
+
+/***END BUTTON FOR HIKKADUWA PAGE***/
+
+
+
+
+  /*******NAVIGATION BAR********/
+
+
+  #navbar {
+    background-color: #132029;
+    overflow: hidden;
+  }
+
+  /* Style for navbar links */
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+  }
+
+  #navbar ul li {
+    font-size: 20px;
+    flex: 1;
+    text-align: center;
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    #navbar {
+      background-color:#00e1ff;
+      overflow: hidden;
+      height: 4%;
+
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    #navbar ul li a {
+      font-size: 8px;
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: left;
+      padding: 0px;
+      text-decoration: none;
+      width:62;
+      font-weight: 400;
+
+    }
+
+    #navbar ul li a {
+      padding: 14px 18px;
+
+    }
+  }
+
+  /* Change color of navbar links on hover */
+  #navbar ul li a:hover {
+    background-color: #00e1ff;
+  }
+
+  /* Style for active navbar link */
+  #navbar ul li a.active {
+    background-color: #00e1ff;
+  }
+
+  /* Style for dropdown menu */
+  #navbar ul li.dropdown ul {
+    display: none;
+    background-color: #00e1ff;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #navbar ul li.dropdown:hover ul {
+    display: block;
+
+
+  }
+
+    #navbar ul li {
+      width: 100%;
+      text-align: left;
+    }
+
+    #navbar ul li a {
+      padding: 14px 20px;
+    }
+
+    #navbar ul li.dropdown.active ul {
+      display: block;
+    }
+
+
+
+
+    /*******FOOTER COPYRIGHT*******/
+
+
+
+
+    .ftr1 .copyright {
+      color: #000000;
+      margin-bottom: 3px;
+      font-weight: 200;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #00e1ff;
+      font-weight: 500;
+      height: 5%;
+    }
+
+    
+    
+  @media only screen and (max-width: 600px) {
+
+    .ftr1 .copyright {
+      color: #000000;
+      margin-bottom: 3px;
+      font-weight: 200;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #00e1ff;
+      font-weight: 500;
+      height: 5%;
+    }
+
+  }
+
+
+
+
+
+ /*--------------------------------------------------------------
+ # BOOKING PAGE
+ --------------------------------------------------------------*/
+
+
+/***********CALENDAR***********/
+
+
+
+    .dateslctn {
+    margin-bottom: 40px;
+    margin-top: 7%;
+    margin-left: 3%;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 25%;
+  }
+  
+  .dateslctn h1{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #132029;
+    color: #78d9ff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.8s ease;
+  }
+
+  .dateslctn:hover h1 {
+    font-size: 35px;
+    }
+    
+  
+  
+  /* Styling for Date Selection */
+  .dateslctn label {
+    font-size: 18px;
+    margin-top: 12px;
+    display: block;
+  }
+  
+  #dateInput {
+    padding: 10px;
+    width: 180px;
+    border: 2px solid #010f54;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #dateSubmitBtn {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #073b39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #dateSubmitBtn:hover {
+    background-color: #45a049;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .dateslctn {
+      margin-bottom: 40px;
+      margin-top: 7%;
+      margin-left: 8%;
+      padding: 10px;
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      width: 80%;
+      box-shadow: 0 4px 10px #00b9cd;
+    }
+    
+  }
+  
+  
+  
+
+  /***********GUEST***********/
+  
+  
+  .ticketselection {
+    margin-bottom: 40px;
+    margin-top: -19%;
+    margin-left: 32%;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 20%;
+  
+  }
+  
+  .ticketselection h1{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #132029;
+    color: #78d9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: all 0.8s ease;
+
+  }
+
+.ticketselection:hover h1 {
+  font-size: 34px;
+  }
+  
+
+  
+
+  
+    /* Styling for Ticket Selection */
+    .ticket-category label {
+      font-size: 18px;
+      margin-top: 12px;
+      display: block;
+    }
+
+
+    
+    input[type="number"] {
+      padding: 10px;
+      width: 100px;
+      border: 3px solid #000540;
+      border-radius: 4px;
+      padding-left: 15%;
+      margin-left: 30%;
+    }
+    
+    #ticketSubmitBtn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #073b39;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-left: 10%;
+      width: 80%;
+    }
+    
+    #ticketSubmitBtn:hover {
+      background-color: #45a049;
+    }
+    
+  
+    @media only screen and (max-width: 600px) {
+        .ticketselection {
+        margin-bottom: 40px;
+        margin-top: 8%;
+        margin-left: 8%;
+        padding: 20px;
+        background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        width: 75%;
+        box-shadow: 0 4px 10px #00b9cd;
+      
+      }
+    }
+    
+
+  
+  
+  
+  
+  
+  /***********DURATION***********/
+  
+  
+  .timeslctn {
+    margin-bottom: 40px;
+    margin-top:-22%;
+    margin-left: 3%;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 25%;
+  }
+  
+  
+  .timeslctn h1{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #132029;
+    color: #78d9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: all 0.8s ease;
+  }
+  
+  .timeslctn:hover h1 {
+    font-size: 34px;
+    }
+    
+  
+
+    /* Styling for Time Slot Selection */
+    .timeslctn label {
+      font-size: 18px;
+      margin-top: 12px;
+      display: block;
+    }
+    
+    #timeSlots {
+      width: 350px;
+      padding: 10px;
+      border: 2px solid #132029;
+      border-radius: 4px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    
+  
+  
+    @media only screen and (max-width: 600px) {
+  .timeslctn {
+        margin-bottom: 40px;
+        margin-top:0%;
+        margin-left: 8%;
+        padding: 20px;
+        background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        width: 75%;
+        box-shadow: 0 4px 10px #00b9cd;
+      }
+
+      #timeSlots {
+        width: 300px;
+        padding: 10px;
+        border: 2px solid #132029;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    }
+    
+    
+    /***********PRICE TABLE***********/
+  
+    .Priceselection1 {
+      margin-top: 10%;
+      margin-top: 50px;
+        
+    }
+    
+    .Priceselection1 h1{
+      padding: 12px;
+      border-radius: 8px;
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      color: #000000;
+      text-align: center;
+      width: 38.5%;
+      margin-left: 3%;
+      transition: all 0.8s ease;
+    }
+
+    .Priceselection1:hover h1 {
+    font-size: 34px;
+    }
+    
+  
+    #pricingtbl {
+      margin-left: 3%;
+      width: 50%;
+      border-collapse: collapse;
+    }
+    
+    #pricingtbl th,
+    #pricingtbl td {
+      border: 2px solid #00e4f5;
+      padding: 18px;
+      text-align: center;
+      font-size: 18px;
+    }
+    
+    #pricingtbl th {
+      background-color: #000027;
+      color: #00e4f5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+    }
+  
+    #pricingtbl tr{
+      color: #000000;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    #pricingtbl tr:nth-child(even) {
+      background-color: #00b9cd;
+    }
+    
+    #pricingtbl tr:nth-child(odd) {
+      background-color: #004880;
+    }
+    
+    #pricingtbl tr:hover {
+      background-color: #008b31;
+      transition: background-color 0.2s;
+    }
+    
+    /* Animations */
+    @keyframes slide-up {
+      from {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    
+  
+  
+  
+    @media only screen and (max-width: 600px) {
+        .Priceselection1 h1{
+        padding: 12px;
+        border-radius: 8px;
+        background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+        color: #000000;
+        text-align: center;
+        width: 70%;
+        margin-left: 10%;
+    
+    }
+  
+    #pricingtbl {
+      margin-left: 10%;
+      width: 70%;
+      border-collapse: collapse;
+    }
+    
+  }
+
+
+
+
+
+/***********SUMMARY TABLE***********/
+
+.SummaryTable {
+    margin-top: 40px;
+  }
+
+  .SummaryTable h1{
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    color: #011118;
+    text-align: center;
+    width: 29%;
+    margin-left: 65%;
+    margin-top: -70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.8s ease;
+  }
+  
+
+  .SummaryTable:hover h1 {
+   font-size: 34px;
+}
+
+  #summaryTable {
+    width: 30%;
+    border-collapse: collapse;
+    margin-left: 65%;
+  }
+  
+  #summaryTable th,
+  #summaryTable td {
+    border: 3px solid #ffffff;
+    padding: 18px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  #summaryTable tr{
+    color:#ffffff;
+
+  }
+
+  #summaryTable tr:nth-child(even) {
+    background-color: #001023;
+  }
+  
+  #summaryTable tr:nth-child(odd) {
+    background-color: #00294a;
+  }
+  
+  #summaryTable tr:hover {
+    background-color: #00589b;
+    transition: background-color 0.2s;
+  }
+  
+
+
+
+  @media only screen and (max-width: 600px) {
+ 
+    .SummaryTable h1{
+      padding: 8px;
+      border-radius: 8px;
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      color: #011118;
+      text-align: center;
+      width: 90%;
+      margin-left: 3%;
+      margin-top: 0%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #summaryTable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-left: 0%;
+    }
+}
+
+
+
+/***********NEXT BUTTON***********/
+
+#moveNextBtn{
+    margin-left: 65%;
+    margin-top: 10%;
+    padding: 1%;
+    width: 20%;
+    background-color:#00e4f5;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    transition: all 0.8s ease;
+  }
+
+
+  
+  #moveNextBtn:hover {
+    background-color: #45a049;
+    font-size: 25px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+ 
+    #moveNextBtn{
+      margin-left: 25%;
+      margin-top: 10%;
+      padding: 1%;
+      width: 50%;
+      height: 5%;
+      background-color:#00e4f5;
+      border: 3px solid #000000;
+      border-radius: 12px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #000000;
+      transition: all 0.8s ease;
+    }
+}
+
+
+
+  
+ /*--------------------------------------------------------------
+ # DETAILS PAGE
+ --------------------------------------------------------------*/
+
+
+
+
+/* Background section */
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 70%;
+    max-width: 400px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-right: 50%;
+  }
+  
+  /* Heading styles */
+   .form-container h2 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #021121;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+   
+  }
+  
+  /* Input and select styles */
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #000000;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Button styles */
+    #continueButton {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.8s ease;
+  }
+
+
+
+  #continueButton:hover {
+  font-size: 18px;
+}
+
+  
+  #continueButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Required field indicator */
+  span.required {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+
+.SummaryTable1 {
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+
+.SummaryTable1 h1{
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+  color: #011118;
+  text-align: center;
+  width: 29%;
+  margin-left: 65%;
+  margin-top: -70%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.8s ease;
+}
+
+
+.SummaryTable1:hover h1 {
+ font-size: 34px;
+}
+
+#summaryTable {
+  width: 30%;
+  border-collapse: collapse;
+  margin-left: 65%;
+}
+
+#summaryTable th,
+#summaryTable td {
+  border: 3px solid #ffffff;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#summaryTable tr{
+  color:#ffffff;
+
+}
+
+#summaryTable tr:nth-child(even) {
+  background-color: #001023;
+}
+
+#summaryTable tr:nth-child(odd) {
+  background-color: #00294a;
+}
+
+#summaryTable tr:hover {
+  background-color: #00589b;
+  transition: background-color 0.2s;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .SummaryTable1 h1{
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    color: #011118;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: -100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  #summaryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 0%;
+  }
+}
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 70%;
+      max-width: 400px;
+      padding: 30px;
+      margin-top: 5px;
+      margin-right: 0%;
+      box-shadow: 0 4px 10px #00b9cd;
+    }
+
+  }
+
+
+
+/*--------------------------------------------------------------
+ # PAYMENT PAGE
+ --------------------------------------------------------------*/
+
+
+
+
+  
+   .payment-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    align-items: center;
+    margin-right: 60%;
+  }
+  
+  .payment-form-container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #021121;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #paymentForm label {
+    font-weight: bold;
+  }
+  
+  #submitButton {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 1%;
+    transition: all 0.8s ease;
+  }
+
+
+  #submitButton:hover {
+    font-size: 18px;
+}
+
+  
+  #submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+  input[type="text"]{
+    width:100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  .bnk-img h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+  }
+
+  .bnk-img img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -2%;
+    border-radius: 30px;
+    height: 15%;
+    border: 3px solid #000000;
+  }
+  
+
+
+
+  
+.SummaryTable2 {
+  margin-top: 470px;
+  margin-bottom: 200px;
+}
+
+.SummaryTable2 h1{
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+  color: #011118;
+  text-align: center;
+  width: 29%;
+  margin-left: 65%;
+  margin-top: -70%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.8s ease;
+}
+
+
+.SummaryTable2:hover h1 {
+ font-size: 34px;
+}
+
+#summaryTable {
+  width: 30%;
+  border-collapse: collapse;
+  margin-left: 65%;
+}
+
+#summaryTable th,
+#summaryTable td {
+  border: 3px solid #ffffff;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#summaryTable tr{
+  color:#ffffff;
+
+}
+
+#summaryTable tr:nth-child(even) {
+  background-color: #001023;
+}
+
+#summaryTable tr:nth-child(odd) {
+  background-color: #00294a;
+}
+
+#summaryTable tr:hover {
+  background-color: #00589b;
+  transition: background-color 0.2s;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .SummaryTable2 h1{
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    color: #011118;
+    text-align: center;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #summaryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 0%;
+  }
+
+  .bnk-img img{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -2%;
+    border-radius: 30px;
+    height: 10%;
+    border: 3px solid #000000;
+  }
+  
+}
+
+
+
+
+  
+
+  @media only screen and (max-width: 600px) {
+    .payment-form-container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 4px solid #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      align-items: center;
+      margin-right: 3%;
+      width: 80%;
+      box-shadow: 0 4px 10px #00b9cd;
+    }
+
+
+    .payment-form-container h2 {
+      font-size: 25px;
+      margin-bottom: 30px;
+      color: #021121;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+
+  }
+
+  .error-msg{
+    color: red;
+    font-size: 10px;
+  }
+  
+
+
+  
+ /*--------------------------------------------------------------
+ # CONFIRMATION PAGE
+ --------------------------------------------------------------*/
+
+
+
+
+
+  /* Confirmation container styles */
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .confirmation-container {
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+    margin-top: 2%;
+    padding: 2%;
+    width: 40%;
+    border: 3px solid rgb(255, 255, 255);
+    margin-left: 7%;
+    border-radius: 12px;
+
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1a6d4d;
+    transition: all 0.8s ease;
+  }
+
+
+  h2:hover {
+    font-size: 34px;
+}
+
+  
+  p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    transition: all 0.8s ease;
+    text-align: center;
+  }
+
+  
+  p:hover {
+    font-size: 26px;
+}
+
+  @media only screen and (max-width: 600px) {
+ 
+    .confirmation-container {
+      background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
+      margin-top: -150%;
+      padding: 2%;
+      width: 80%;
+      border: 3px solid rgb(255, 255, 255);
+      margin-left: 0%;
+      border-radius: 12px;
+    }
+    
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #1a6d4d;
+    }
+    
+    p {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+      
+    }
+  }
+
+

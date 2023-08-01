@@ -19,6 +19,7 @@
          <!-- Template Main CSS File -->
         <link href="assets/css/turtlewebstyle.css" rel="stylesheet">
 
+
     </head>
     
     
@@ -68,6 +69,7 @@
   <br>
 
 <!-- ======= HIKKADUWA HEADING ======= -->
+
 
     <div class="Hikkaduwa-heading">
       <h1>HIKKADUWA SEA TURTLE HATCHERY</h1>
@@ -153,7 +155,32 @@
 
    </div>
 
+
+   <br>
+
 <!-- END EXPLORE HIKKADUWA -->
+
+
+<!-- ======= HIKKADUWA BOOKING BUTTON ======= -->
+
+
+<section class="bookbtn-container">
+
+<div class="section-content">
+  <h1>Book Online to visit Hikkaduwa Hatchery</h1>
+</div>
+
+<button id="bookNowBtn">Book Now</button>
+<script src="script.js"></script>
+
+</section>
+
+<!-- END HIKKADUWA BOOKING BUTTON -->
+
+
+
+
+
 
 
 <!-- ======= HATCHERY INFORMATION ======= -->
@@ -257,6 +284,18 @@
   </div>
   </div>
 <!--END CONTACT INFO-->
+
+
+
+  <script>
+function redirectToBookingPage() {
+  window.location.href = "booking.html";
+}
+
+document.getElementById("bookNowBtn").addEventListener("click", redirectToBookingPage);
+  </script>
+
+
 
     </body>
 

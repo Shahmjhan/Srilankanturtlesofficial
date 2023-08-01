@@ -312,7 +312,7 @@ justify-content: justify;
 #footer .copyright {
   color: #000000;
   margin-bottom: 3px;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 200;
   text-align: center;
 }
@@ -842,13 +842,17 @@ font-size: 29px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 170%;
+    height: 140%;
     z-index: -1;
   }
     
 }
 
+
+
+
 /*******HIKKADUWA HEADING*******/
+
 
 .Hikkaduwa-heading h1 {
   animation: slideInn 1s ease-in-out;
@@ -966,34 +970,38 @@ font-size: 29px;
 
   .Hikkaduwa-Flex-Container{
     display: grid;
-    justify-content: center;
+    justify-content:left;
     padding-top: 10%;
-  
+    padding-left: 5%;
+
   }
   
   .Hikkaduwa-map header{
+    padding-top: 30%;
     font-family: "Roboto", sans-serif;
-    color:rgb(0, 34, 101);
+    color:rgb(255, 255, 255);
     justify-content: center;
     align-items: top;
     display: grid;
     font-size: larger;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 25px;
   }
 
 
 .Hikkaduwa-Map iframe{
-  width:100%;
+  width:120%;
   height:380;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
+
+
 }
 
 
 .Hikkaduwa-Video iframe {
   display: block;
-  width:100%;
+  width:121.5%;
   height:380;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
@@ -1209,9 +1217,96 @@ font-size: 29px;
 }
 }
 
+/*******HIKKADUWA BOOKING BUTTON*******/
+
+.bookbtn-container{
+  background-color: #00c2b5;
+  height: 25%;
+}
+
+#bookNowBtn {
+  background-color: #132029;
+  color: white;
+  padding: 12px 127px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 72%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  animation-name: blooming;
+  animation: blooming 4s ease-in-out infinite;
+}
 
 
 
+@keyframes blooming {
+  0% {
+    font-size: 0; /* start with a font-size of 0 */
+  }
+  400% {
+    font-size: 80%; /* increase font-size to 150% */
+  }
+  500% {
+    font-size: 100%; /* return to original font-size */
+  }
+}
+
+.section-content h1{
+  font-size: 40px;
+  color: #000245;
+  padding-left: 10%;
+  padding-top: 1%;
+
+
+}
+
+
+#bookNowBtn:hover {
+  background-color: #0c2e47;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .bookbtn-container{
+    background-color: #00c2b5;
+    height: 20%;
+  }
+
+  .section-content h1{
+    font-size: 30px;
+    color: #000245;
+    padding-top: 1%;
+    padding-right: 7%;
+    text-align: center;
+  
+  }
+
+  #bookNowBtn {
+    background-color: #132029;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 47%;
+    margin-bottom: 18%;
+
+  
+  
+  }
+  
+  
+  #bookNowBtn:hover {
+    background-color: #0c2e47;
+          text-align: center;
+  }
+
+}
 
 /******HATCHERY INFORMATION******/
 
@@ -1274,9 +1369,10 @@ color:#001259;
 @media only screen and (max-width: 600px) {
 
   .flex-Hatchery-Information {
+
     display: flex;
     justify-content: center;
-    padding-top: 1%;
+    padding-top: 5%;
     padding-bottom: 3%;
     padding-left: 10%;
     padding-right: 10%;

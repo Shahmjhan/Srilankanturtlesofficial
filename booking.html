@@ -1,0 +1,234 @@
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bookings</title>
+  <link rel="stylesheet" href="mashallah.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font Link for Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+</head>
+
+<body>
+  <!-- Tickets page -->
+  <section class="heading">
+    <h2>Buy Tickets</h2>
+  </section>
+  <button id="HikkaduwaBtn1" class="HKbtn">Back</button>
+
+
+
+  
+
+  <!--==========BOOKING NAVBAR PROCESS=========-->
+
+
+  <nav id="navbar" class="navbar">
+    <ul>
+      <li><a class="active" href="booking.html">|    Tickets    |</a></li>
+      <li><a href="details.html">|     Details     |</a></li>
+      <li><a href="payments.html">|     Payment     |</a></li>
+      <li><a href="confirmation.html">|     Confirmation     |</a></li>
+    </ul>
+  </nav>
+
+
+  <!--***END BOOKING NAVBAR PROCESS***-->
+
+
+
+
+
+  
+  <!--==========CALENDAR=========-->
+
+
+  <div class="dateslctn">
+    <h1>Calendar</h1>
+    <label for="dateInput">Select a Date:</label>
+    <input type="date" id="dateInput">
+    <button id="dateSubmitBtn">Submit Date</button>
+  </div>
+
+    <!--***END CALENDAR***-->
+
+
+
+
+
+  <!--==========TICKET SELECTION=========-->
+
+
+
+  <div class="ticketselection">
+    <h1>Ticket Categories:</h1>
+    <div class="ticket-category">
+        <label for="slAdult">SL Adult:</label>
+        <input type="number" id="slAdult" min="0" value="0">
+    </div>
+    <div class="ticket-category">
+        <label for="slChild">SL Child:</label>
+        <input type="number" id="slChild" min="0" value="0">
+    </div>
+    <div class="ticket-category">
+        <label for="foreignerAdult">Foreigner Adult:</label>
+        <input type="number" id="foreignerAdult" min="0" value="0">
+    </div>
+    <div class="ticket-category">
+        <label for="foreignerChild">Foreigner Child:</label>
+        <input type="number" id="foreignerChild" min="0" value="0">
+    </div>
+    <div class="ticket-category">
+        <label for="infant">Infant:</label>
+        <input type="number" id="infant" min="0" value="0">
+    </div>
+    <button id="ticketSubmitBtn">Submit Tickets</button>
+</div>
+
+  <!--***END TICKET SELECTION***-->
+
+
+
+
+
+  <!--==========TIME SLOT SELECTION=========-->
+
+  <div class="timeslctn">
+    <h1>Time Slot Selection:</h1>
+    <label for="timeSlots">Select Time Slot(s):</label>
+    <select id="timeSlots" multiple>
+      <option value="slot1">07:00 am - 08:00 am</option>
+      <option value="slot2">08:00 am - 09:00 am</option>
+      <option value="slot3">09:00 am - 10:00 am(Peak)</option>
+      <option value="slot4">10:00 am - 11:00 am(Peak)</option>
+      <option value="slot5">11:00 am - 12:00 pm(Peak)</option>
+      <option value="slot6">12:00 pm - 01:00 pm</option>
+      <option value="slot7">01:00 pm - 02:00 pm</option>
+      <option value="slot8">02:00 pm - 03:00 pm</option>
+      <option value="slot9">03:00 pm - 04:00 pm(Peak)</option>
+      <option value="slot10">04:00 pm - 05:00 pm(Peak)</option>
+      <option value="slot11">05:00 pm - 06:00 pm(Peak)</option>
+      <option value="slot12">06:00 pm - 07:00 pm</option>
+    </select>
+  </div>
+
+    <!--***END TIME SLOT SELECTION***-->
+
+  
+
+
+
+  <!--==========PRICE TABLE=========-->
+
+
+  <div class="Priceselection1">
+    <h1>Pricing Table:</h1>
+    <table id="pricingtbl">
+      
+    </table>
+  </div>
+    <!--***END PRICE TABLE***-->
+
+
+
+
+  
+  <!--==========SUMMARY TABLE=========-->
+
+
+  <div class="SummaryTable">
+    <h1>Summary:</h1>
+    <table id="summaryTable">
+      <tr>
+        <td>Date</td>
+        <td><!--Date--></td>
+    </tr>
+    <tr>
+        <td>Time Slot</td>
+        <td><!--Time Slot--></td>
+    </tr>
+    <tr>
+        <td>Duration</td>
+        <td><!-- Duration--></td>
+    </tr>
+    <tr>
+        <td>Tickets</td>
+        <td>Charges (USD)</td>
+    </tr>
+    <tr>
+        <td><!--category and quantity--></td>
+        <td><!--total price--></td>
+    </tr>
+    <tr>
+        <td><!--category and quantity--></td>
+        <td><!--total price--></td>
+    </tr>
+    <tr>
+        <td><!--category and quantity--></td>
+        <td><!--total price--></td>
+    </tr>
+    <tr>
+        <td><!--category and quantity--></td>
+        <td><!--total price--></td>
+    </tr>
+    <tr>
+        <td><!--category and quantity--></td>
+        <td><!--total price--></td>
+    </tr>
+    <tr>
+        <td>Total Payable</td>
+        <td><!--Total Payable--></td>
+    </tr>
+    </table>
+  </div>
+
+      <!--***END SUMMARY TABLE***-->
+
+  
+
+
+
+  <!--==========BUTTON TO DETAILS PAGE=========-->
+
+
+       
+  <div class="moveNextButtonContainer">
+    <button id="moveNextBtn">Move Next</button>
+  </div>
+  
+        <!--***END BUTTON TO DETAILS PAGE***-->
+
+
+        <script>
+          function redirectdetailsPage() {
+            window.location.href = "details.html";
+          }
+          
+          document.getElementById("moveNextBtn").addEventListener("click", redirectdetailsPage);
+            </script>
+          
+
+  <script src="booking12.js"></script>
+
+
+<br><br><br><br><br><br><br>
+
+
+  <!--==========FOOTER=========-->
+
+
+<div class="Ftr1">
+  <!--Copyright-->
+    <div class="copyright">
+      &copy; Copyright <strong><span>Sri Lanka Turtles Official 2023</span></strong>. All Rights Reserved.
+
+
+    </div>
+  </div>
+
+          <!--***END FOOTER***-->
+
+</body>
+</html>

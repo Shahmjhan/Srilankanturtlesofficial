@@ -7,6 +7,41 @@ body {
 }
 
 
+  /*******BACKGROUND IMAGE 2*******/
+
+
+
+  .background-image3 {
+    background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    z-index: -1;
+    margin-top: 16%;
+    opacity: 50%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .background-image3 {
+      background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 104%;
+      z-index: -1;
+      margin-top: 26%;
+    }
+      
+  }
+
+
+
+
 /***********MAIN HEADER***********/
 
 
@@ -240,6 +275,7 @@ body {
       background-color: #00e1ff;
       font-weight: 500;
       height: 5%;
+
     }
 
   }
@@ -742,24 +778,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /******EXPLORE HIKKADUWA******/
 
 
@@ -873,7 +891,7 @@ body {
     width: 70%;
     max-width: 400px;
     padding: 30px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-right: 50%;
   }
   
@@ -965,7 +983,7 @@ body {
   text-align: center;
   width: 29%;
   margin-left: 65%;
-  margin-top: -70%;
+  margin-top: -71%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: all 0.8s ease;
 }
@@ -1022,7 +1040,7 @@ body {
     text-align: center;
     width: 70%;
     margin-left: 10%;
-    margin-top: -100%;
+    margin-top: -55%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   }
@@ -1059,6 +1077,38 @@ body {
  --------------------------------------------------------------*/
 
 
+   /*******BACKGROUND IMAGE 31*******/
+
+
+
+   .background-image31 {
+    background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+    z-index: -1;
+    margin-top: 16%;
+    opacity: 50%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .background-image31 {
+      background-image: url(https://images.ctfassets.net/bth3mlrehms2/31y7JTQ8uhRe3AJn3Zc7mN/aa434a4227890d5d0c73fbf3312017a8/Hikkaduwa.jpg?w=2310&h=1298&fl=progressive&q=50&fm=jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 210%;
+      z-index: -1;
+      margin-top: 26%;
+    }
+      
+  }
+
 
 
   
@@ -1072,6 +1122,7 @@ body {
     background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 208));
     align-items: center;
     margin-right: 60%;
+    margin-top: 8%;
   }
   
   .payment-form-container h2 {
@@ -1271,7 +1322,6 @@ body {
  /*--------------------------------------------------------------
  # CONFIRMATION PAGE
  --------------------------------------------------------------*/
-
 
 
 
